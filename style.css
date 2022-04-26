@@ -3,3 +3,10 @@
 h1 {
 	font-family: 'Montserrat', sans-serif, monospace;
 }
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #000;
+		color: #FFF;
+	}
+}
