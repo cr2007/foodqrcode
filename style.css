@@ -1,12 +1,18 @@
+/* Imports Montserrat font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+/* Header 1 formatting rules */
 h1 {
+	/* Font Family to be displayed (with the next ones to
+	*  be displayed if the previous one isn't supported */
 	font-family: 'Montserrat', sans-serif, monospace;
 }
 
+/* Dark Mode Formatting */
 @media (prefers-color-scheme: dark) {
+	/* Body element */
 	body {
-		background: #000;
-		color: #FFF;
+		background: #000; /* Black Background Color */
+		color: #FFF; /* White Text Color */
 	}
 }
